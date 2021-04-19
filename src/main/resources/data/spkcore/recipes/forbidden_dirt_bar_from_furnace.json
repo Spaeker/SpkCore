@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "spkcore:forbidden_dirt"
+  },
+  "result": "spkcore:forbidden_dirt_bar",
+  "experience": 1.15,
+  "cookingtime": 800
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "spkcore:block/forgotten_black_planks"
+  }
+}

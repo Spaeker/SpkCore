@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "spkcore:block/forgotten_black_planks"
+  }
+}

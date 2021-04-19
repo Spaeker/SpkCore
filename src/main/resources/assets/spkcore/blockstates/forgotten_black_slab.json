@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "spkcore:block/forgotten_black_slab"
+    },
+    "type=double": {
+      "model": "spkcore:block/forgotten_black_planks"
+    },
+    "type=top": {
+      "model": "spkcore:block/forgotten_black_slab_top"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "spkcore:forgotten_black_planks"
+    }
+  },
+  "result": {
+    "item": "spkcore:forgotten_black_fence",
+    "count": 3
+  }
+}

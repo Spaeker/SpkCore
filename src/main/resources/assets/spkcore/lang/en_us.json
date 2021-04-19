@@ -1,0 +1,32 @@
+{
+  "item.spkcore.forbidden_dirt_bar": "Forbidden Dirt Bar",
+  "item.spkcore.forbidden_dirt_dust": "Forbidden Dirt Dust",
+
+  "item.spkcore.bad_apple": "Bad Apple",
+
+  "item.spkcore.forbidden_dirt_shovel": "Forbidden Dirt Shovel",
+  "item.spkcore.forbidden_dirt_axe": "Forbidden Dirt Axe",
+  "item.spkcore.forbidden_dirt_hoe": "Forbidden Dirt Hoe",
+  "item.spkcore.forbidden_dirt_pickaxe": "Forbidden Dirt Pickaxe",
+  "item.spkcore.forbidden_dirt_sword": "Forbidden Dirt Sword",
+
+  "item.spkcore.forbidden_dirt_helmet": "Forbidden Dirt Helmet",
+  "item.spkcore.forbidden_dirt_chestplate": "Forbidden Dirt Chestplate",
+  "item.spkcore.forbidden_dirt_leggings": "Forbidden Dirt Leggings",
+  "item.spkcore.forbidden_dirt_boots": "Forbidden Dirt Boots",
+
+  "block.spkcore.forbidden_dirt": "Forbidden Dirt",
+  "block.spkcore.forbidden_dirt_block": "Forbidden Dirt Block",
+
+  "block.spkcore.forgotten_black_log": "Forgotten Black log",
+  "block.spkcore.forgotten_black_planks": "Forgotten Black Planks",
+  "block.spkcore.forgotten_black_crafting_table": "Forgotten Black Crafting Table",
+  "block.spkcore.forgotten_black_fence": "Forgotten Black Fence",
+  "block.spkcore.forgotten_black_fence_gate": "Forgotten Black Fence Gate",
+  "block.spkcore.forgotten_black_button": "Forgotten Black Button",
+  "block.spkcore.forgotten_black_pressure_plate": "Forgotten Black Pressure Plate",
+  "block.spkcore.forgotten_black_slab": "Forgotten Black Slab",
+
+  "itemGroup.spkTab": "Spaeker Core"
+
+}

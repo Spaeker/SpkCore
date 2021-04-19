@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "c",
+    "c"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "spkcore:forbidden_dirt_bar"
+    }
+  },
+  "result": {
+    "item": "spkcore:forbidden_dirt_shovel",
+    "count": 1
+  }
+}

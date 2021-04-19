@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "spkcore:block/forgotten_black_log",
+    "side": "spkcore:block/forgotten_black_log_top"
+  }
+}

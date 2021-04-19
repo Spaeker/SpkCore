@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spkcore:forgotten_black_crafting_table"
+        }
+      ]
+    }
+  ]
+}

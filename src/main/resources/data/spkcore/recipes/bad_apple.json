@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    { "item": "minecraft:black_dye" },
+    { "item": "minecraft:apple" }
+  ],
+  "result": {
+    "item": "spkcore:bad_apple",
+    "count": 9
+  }
+}
