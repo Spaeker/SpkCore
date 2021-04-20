@@ -12,25 +12,67 @@ import net.minecraftforge.fml.RegistryObject;
 
 public class ItemMod {
 
-    public static final RegistryObject<Item>  FORBIDDEN_DIRT_BAR =
+    //items
+    public static final RegistryObject<Item> FORBIDDEN_DIRT_BAR =
             Registration.ITEMS.register("forbidden_dirt_bar",
                     () -> new Item(new Item.Properties().tab(SpkCore.SPK_TAB)));
-    public static final RegistryObject<Item>  FORBIDDEN_DIRT_DUST =
+    public static final RegistryObject<Item> FORBIDDEN_DIRT_DUST =
             Registration.ITEMS.register("forbidden_dirt_dust",
                     () -> new Item(new Item.Properties().tab(SpkCore.SPK_TAB)));
-    public static final RegistryObject<Item>  BAD_APPLE =
+    public static final RegistryObject<Item> BAD_APPLE =
             Registration.ITEMS.register("bad_apple",
                     () -> new BadApple());
-
+    public static final RegistryObject<Item> SILVER_INGOT =
+            Registration.ITEMS.register("silver_ingot",
+                    () -> new Item(new Item.Properties().tab(SpkCore.SPK_TAB)));
 
     //tools
+    public static final RegistryObject<Item> SILVER_SHOVEL =
+            Registration.ITEMS.register("silver_shovel",
+                    () -> new ShovelItem(ModItemTier.SILVER, 0f, 0f,
+                            new Item.Properties()
+                                    .durability(50)
+                                    .addToolType(ToolType.SHOVEL, 2)
+                                    .tab(SpkCore.SPK_TAB)));
+
+    public static final RegistryObject<Item> SILVER_SWORD =
+            Registration.ITEMS.register("silver_sword",
+                    () -> new SwordItem(ModItemTier.SILVER, 9, 0f,
+                            new Item.Properties()
+                                    .durability(50)
+                                    .tab(SpkCore.SPK_TAB)));
+
+    public static final RegistryObject<Item> SILVER_AXE =
+            Registration.ITEMS.register("silver_axe",
+                    () -> new AxeItem((ModItemTier.SILVER), 0f, 0f,
+                            new Item.Properties()
+                                    .durability(50)
+                                    .addToolType(ToolType.AXE, 2)
+                                    .tab(SpkCore.SPK_TAB)));
+
+    public static final RegistryObject<Item> SILVER_PICKAXE =
+            Registration.ITEMS.register("silver_pickaxe",
+                    () -> new PickaxeItem(ModItemTier.SILVER, 0, 0f,
+                            new Item.Properties()
+                                    .durability(50)
+                                    .addToolType(ToolType.PICKAXE, 2)
+                                    .tab(SpkCore.SPK_TAB)));
+
+    public static final RegistryObject<Item> SILVER_HOE =
+            Registration.ITEMS.register("silver_hoe",
+                    () -> new HoeItem(ModItemTier.SILVER, 0, 0f,
+                            new Item.Properties()
+                                    .durability(50)
+                                    .addToolType(ToolType.HOE, 2)
+                                    .tab(SpkCore.SPK_TAB)));
+
     public static final RegistryObject<Item> FORBIDDEN_DIRT_SHOVEL =
             Registration.ITEMS.register("forbidden_dirt_shovel",
                     () -> new ShovelItem(ModItemTier.FORBIDDEN_DIRT, 0f, 0f,
                             new Item.Properties()
-                                .durability(50)
-                                .addToolType(ToolType.SHOVEL, 2)
-                                .tab(SpkCore.SPK_TAB)));
+                                    .durability(50)
+                                    .addToolType(ToolType.SHOVEL, 2)
+                                    .tab(SpkCore.SPK_TAB)));
 
     public static final RegistryObject<Item> FORBIDDEN_DIRT_SWORD =
             Registration.ITEMS.register("forbidden_dirt_sword",
@@ -64,6 +106,7 @@ public class ItemMod {
                                     .tab(SpkCore.SPK_TAB)));
 
 
+
     //armor
     public static final RegistryObject<Item> FORBIDDEN_DIRT_HELMET =
             Registration.ITEMS.register("forbidden_dirt_helmet",
@@ -89,12 +132,39 @@ public class ItemMod {
                             new Item.Properties()
                                     .tab(SpkCore.SPK_TAB)));
 
+    public static final RegistryObject<Item> SILVER_HELMET =
+            Registration.ITEMS.register("silver_helmet",
+                    () -> new ArmorItem(ModArmorMaterial.SILVER, EquipmentSlotType.HEAD,
+                            new Item.Properties()
+                                    .tab(SpkCore.SPK_TAB)));
+
+    public static final RegistryObject<Item> SILVER_CHESTPLATE =
+            Registration.ITEMS.register("silver_chestplate",
+                    () -> new ArmorItem(ModArmorMaterial.SILVER, EquipmentSlotType.CHEST,
+                            new Item.Properties()
+                                    .tab(SpkCore.SPK_TAB)));
+
+    public static final RegistryObject<Item> SILVER_LEGGINGS =
+            Registration.ITEMS.register("silver_leggings",
+                    () -> new ArmorItem(ModArmorMaterial.SILVER, EquipmentSlotType.LEGS,
+                            new Item.Properties()
+                                    .tab(SpkCore.SPK_TAB)));
+
+    public static final RegistryObject<Item> SILVER_BOOTS =
+            Registration.ITEMS.register("silver_boots",
+                    () -> new ArmorItem(ModArmorMaterial.SILVER, EquipmentSlotType.FEET,
+                            new Item.Properties()
+                                    .tab(SpkCore.SPK_TAB)));
 
 
-    public static void register() {}
+    public static void register() {
+    }
+
     public enum ModItemTier implements IItemTier {
         FORBIDDEN_DIRT(3, 1500, 3f, 0f, 40,
-                Ingredient.of(new ItemStack(ItemMod.FORBIDDEN_DIRT_BAR.get())));
+                Ingredient.of(new ItemStack(ItemMod.FORBIDDEN_DIRT_BAR.get()))),
+        SILVER(2, 500, 3f, 4f, 20,
+                    Ingredient.of(new ItemStack(ItemMod.SILVER_INGOT.get())));
         private final int harvestLevel;
         private final int maxUses;
         private final float efficiency;
@@ -144,9 +214,13 @@ public class ItemMod {
         }
 
     }
-    public enum ModArmorMaterial implements IArmorMaterial{
+
+    public enum ModArmorMaterial implements IArmorMaterial {
+        SILVER(500, new int[]{7, 13, 11, 9}, 10,
+                SoundEvents.ARMOR_EQUIP_IRON, Ingredient.of(new ItemStack(ItemMod.SILVER_INGOT.get())), SpkCore.MOD_ID + ":silver", 3, 0.3f),
         FORBIDDEN_DIRT(500, new int[]{7, 13, 11, 9}, 10,
                 SoundEvents.ARMOR_EQUIP_IRON, Ingredient.of(new ItemStack(ItemMod.FORBIDDEN_DIRT_BAR.get())), SpkCore.MOD_ID + ":forbidden_dirt", 3, 0.3f);
+
 
         private final int durability;
         private final int[] damageReductionAmountarray;
@@ -208,6 +282,5 @@ public class ItemMod {
         public float getKnockbackResistance() {
             return knockbackResistance;
         }
-
     }
 }

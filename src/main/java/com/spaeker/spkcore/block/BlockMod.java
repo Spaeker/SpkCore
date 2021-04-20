@@ -50,9 +50,13 @@ public class BlockMod {
             () -> new WoodButtonBlock(AbstractBlock.Properties.of(Material.WOOD)
                     .strength(3f, 10f).sound(SoundType.WOOD).harvestTool(ToolType.AXE)));
 
-
-
-
+    //silver
+    public static final RegistryObject<Block>  SIlVER_BLOCK = register("silver_block",
+            () -> new Block(AbstractBlock.Properties.of(Material.METAL)
+                    .strength(3f, 10f).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block>  SIlVER_ORE = register("silver_ore",
+            () -> new Block(AbstractBlock.Properties.of(Material.METAL)
+                    .strength(3f, 10f).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops()));
 
 
 

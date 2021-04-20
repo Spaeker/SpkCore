@@ -27,6 +27,22 @@
   "block.spkcore.forgotten_black_pressure_plate": "Forgotten Black Pressure Plate",
   "block.spkcore.forgotten_black_slab": "Forgotten Black Slab",
 
+  "item.spkcore.silver_ingot": "Iryte Ingot",
+
+  "item.spkcore.silver_shovel": "Iryte Shovel",
+  "item.spkcore.silver_axe": "Iryte Axe",
+  "item.spkcore.silver_hoe": "Iryte Hoe",
+  "item.spkcore.silver_pickaxe": "Iryte Pickaxe",
+  "item.spkcore.silver_sword": "Iryte Sword",
+
+  "item.spkcore.silver_helmet": "Iryte Helmet",
+  "item.spkcore.silver_chestplate": "Iryte Chestplate",
+  "item.spkcore.silver_leggings": "Iryte Leggings",
+  "item.spkcore.silver_boots": "Iryte Boots",
+
+  "block.spkcore.silver_ore": "Iryte ore",
+  "block.spkcore.silver_block": "Iryte Block",
+
   "itemGroup.spkTab": "Spaeker Core"
 
 }
