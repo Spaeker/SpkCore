@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    "#c ",
+    " c "
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "spkcore:apothis_ingot"
+    }
+  },
+  "result": {
+    "item": "spkcore:apothis_axe",
+    "count": 1
+  }
+}

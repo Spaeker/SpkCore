@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    { "item": "spkcore:fevne_block" }
+  ],
+  "result": {
+    "item": "spkcore:fevne_ingot",
+    "count": 9
+  }
+}

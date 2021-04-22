@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    { "item": "spkcore:mjellia_block" }
+  ],
+  "result": {
+    "item": "spkcore:mjellia_ingot",
+    "count": 9
+  }
+}

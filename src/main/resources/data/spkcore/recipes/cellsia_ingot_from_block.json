@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    { "item": "spkcore:cellsia_block" }
+  ],
+  "result": {
+    "item": "spkcore:cellsia_ingot",
+    "count": 9
+  }
+}

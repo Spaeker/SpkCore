@@ -3,10 +3,10 @@
   "group": "",
   "ingredients": [
     {
-      "item": "spkcore:forgotten_black_button"
+      "item": "spkcore:forgotten_black_planks"
     }
   ],
   "result": {
-    "item": "minecraft:acacia_button"
+    "item": "spkcore:forgotten_black_button"
   }
 }

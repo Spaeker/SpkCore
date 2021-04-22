@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "spkcore:fevne_ingot"
+    }
+  },
+  "result": {
+    "item": "spkcore:fevne_pickaxe",
+    "count": 1
+  }
+}

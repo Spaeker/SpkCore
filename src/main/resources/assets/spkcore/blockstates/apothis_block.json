@@ -1,0 +1,5 @@
+ {
+  "variants": {
+    "": { "model": "spkcore:block/apothis_block"}
+  }
+}

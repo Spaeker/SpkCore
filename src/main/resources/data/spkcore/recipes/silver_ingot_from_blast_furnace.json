@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "spkcore:silver_ore"
+  },
+  "result": "spkcore:silver_ingot",
+  "experience": 0.19,
+  "cookingtime": 100
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "spkcore:fevne_ore"
+  },
+  "result": "spkcore:fevne_ingot",
+  "experience": 1.15,
+  "cookingtime": 200
+}

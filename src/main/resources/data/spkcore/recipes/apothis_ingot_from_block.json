@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    { "item": "spkcore:apothis_block" }
+  ],
+  "result": {
+    "item": "spkcore:apothis_ingot",
+    "count": 9
+  }
+}

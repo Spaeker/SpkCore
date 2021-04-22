@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "spkcore:mjellia_ingot"
+    }
+  },
+  "result": {
+    "item": "spkcore:mjellia_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "spkcore:forgotten_black_planks"
+    }
+  },
+  "result": {
+    "item": "spkcore:forgotten_black_slab",
+    "count": 6
+  }
+}

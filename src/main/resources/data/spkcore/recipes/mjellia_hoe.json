@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "spkcore:mjellia_ingot"
+    }
+  },
+  "result": {
+    "item": "spkcore:mjellia_hoe",
+    "count": 1
+  }
+}

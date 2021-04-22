@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "spkcore:mjellia_ore"
+  },
+  "result": "spkcore:mjellia_ingot",
+  "experience": 0.19,
+  "cookingtime": 100
+}

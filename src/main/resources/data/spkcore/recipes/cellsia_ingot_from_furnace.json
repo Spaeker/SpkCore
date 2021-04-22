@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "spkcore:cellsia_ore"
+  },
+  "result": "spkcore:cellsia_ingot",
+  "experience": 1.15,
+  "cookingtime": 200
+}

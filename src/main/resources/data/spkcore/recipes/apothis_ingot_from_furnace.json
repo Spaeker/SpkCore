@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "spkcore:apothis_ore"
+  },
+  "result": "spkcore:apothis_ingot",
+  "experience": 1.15,
+  "cookingtime": 200
+}

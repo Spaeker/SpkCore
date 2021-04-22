@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "spkcore:mjellia_ore"
+  },
+  "result": "spkcore:mjellia_ingot",
+  "experience": 1.15,
+  "cookingtime": 200
+}

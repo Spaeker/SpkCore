@@ -28,9 +28,6 @@ public class BlockMod {
     public static final RegistryObject<Block>  FORGOTTEN_BLACK_PLANKS = register("forgotten_black_planks",
             () -> new Block(AbstractBlock.Properties.of(Material.WOOD)
                     .strength(3f, 10f).sound(SoundType.WOOD).harvestTool(ToolType.AXE)));
-    public static final RegistryObject<Block>  FORGOTTEN_BLACK_CRAFTING_TABLE = register("forgotten_black_crafting_table",
-            () -> new Block(AbstractBlock.Properties.of(Material.WOOD)
-                    .strength(3f, 10f).sound(SoundType.WOOD).harvestTool(ToolType.AXE)));
     public static final RegistryObject<Block>  FORGOTTEN_BLACK_STAIRS = register("forgotten_black_stairs",
             () -> new StairsBlock(() -> BlockMod.FORGOTTEN_BLACK_PLANKS.get().defaultBlockState(),
                     AbstractBlock.Properties.of(Material.WOOD).strength(3f, 10f).sound(SoundType.WOOD).harvestTool(ToolType.AXE)));
@@ -55,10 +52,40 @@ public class BlockMod {
             () -> new Block(AbstractBlock.Properties.of(Material.METAL)
                     .strength(3f, 10f).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block>  SIlVER_ORE = register("silver_ore",
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE)
+                    .strength(3f, 10f).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops().harvestLevel(3)));
+
+    //Mjellia
+    public static final RegistryObject<Block>  MJELLIA_BLOCK = register("mjellia_block",
             () -> new Block(AbstractBlock.Properties.of(Material.METAL)
                     .strength(3f, 10f).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block>  MJELLIA_ORE = register("mjellia_ore",
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE)
+                    .strength(3f, 10f).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops().harvestLevel(3)));
 
+    //Cellsia
+    public static final RegistryObject<Block>  CELLSIA_BLOCK = register("cellsia_block",
+            () -> new Block(AbstractBlock.Properties.of(Material.METAL)
+                    .strength(3f, 10f).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block>  CELLSIA_ORE = register("cellsia_ore",
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE)
+                    .strength(3f, 10f).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops().harvestLevel(4)));
 
+    //FEVNE
+    public static final RegistryObject<Block>  FEVNE_BLOCK = register("fevne_block",
+            () -> new Block(AbstractBlock.Properties.of(Material.METAL)
+                    .strength(3f, 10f).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block>  FEVNE_ORE = register("fevne_ore",
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE)
+                    .strength(3f, 10f).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops().harvestLevel(5)));
+
+    //APOTHIS
+    public static final RegistryObject<Block>  APOTHIS_BLOCK = register("apothis_block",
+            () -> new Block(AbstractBlock.Properties.of(Material.METAL)
+                    .strength(3f, 10f).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block>  APOTHIS_ORE = register("apothis_ore",
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE)
+                    .strength(3f, 10f).sound(SoundType.STONE).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops().harvestLevel(6)));
 
     public static void register() {}
 

@@ -2,15 +2,13 @@ package com.spaeker;
 
 import com.spaeker.spkcore.block.BlockMod;
 import com.spaeker.spkcore.item.ItemMod;
-import com.spaeker.spkcore.util.ClientProxy;
-import com.spaeker.spkcore.util.IProxy;
-import com.spaeker.spkcore.util.Registration;
-import com.spaeker.spkcore.util.ServerProxy;
+import com.spaeker.spkcore.util.*;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.EventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
@@ -22,7 +20,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(SpkCore.MOD_ID)
 public class SpkCore
 {
@@ -38,7 +35,7 @@ public class SpkCore
 
     public static IProxy proxy;
 
-    // Directly reference a log4j logger.
+
     private static final Logger LOGGER = LogManager.getLogger();
 
     public SpkCore() {
@@ -49,17 +46,14 @@ public class SpkCore
 
         proxy = DistExecutor.safeRunForDist(() -> ClientProxy::new, () -> ServerProxy::new);
 
-
-        // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 
-        // Register the doClientStuff method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
         // Config.loadCongfigFile(Config.CLIENT_CONFIG, FMLPaths.CONFIGDIR.get().resolve("spk-client.toml").toString());
         // Config.loadCongfigFile(Config.SERVER_CONFIG, FMLPaths.CONFIGDIR.get().resolve("spk-server.toml").toString());
 
-        // Register ourselves for server and otherSERVER_CONFIGvents we are interested in
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 
@@ -72,29 +66,24 @@ public class SpkCore
 
         ItemMod.register();
         BlockMod.register();
-       // ModTileEntities.register();
+       // ModTileEntities.register()
+        MinecraftForge.EVENT_BUS.register(new ModEvents());
 
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
-        // do something that can only be done on the client
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().options);
     }
 
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(FMLServerStartingEvent event) {
-        // do something when the server starts
         LOGGER.info("HELLO from server starting");
     }
 
-    // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD
-    // Event bus for receiving Registry Events)
     @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
     public static class RegistryEvents {
         @SubscribeEvent
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> blockRegistryEvent) {
-            // register a new block here
             LOGGER.info("HELLO from Register Block");
         }
     }

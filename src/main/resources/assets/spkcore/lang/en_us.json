@@ -1,26 +1,20 @@
 {
   "item.spkcore.forbidden_dirt_bar": "Forbidden Dirt Bar",
   "item.spkcore.forbidden_dirt_dust": "Forbidden Dirt Dust",
-
-  "item.spkcore.bad_apple": "Bad Apple",
-
   "item.spkcore.forbidden_dirt_shovel": "Forbidden Dirt Shovel",
   "item.spkcore.forbidden_dirt_axe": "Forbidden Dirt Axe",
   "item.spkcore.forbidden_dirt_hoe": "Forbidden Dirt Hoe",
   "item.spkcore.forbidden_dirt_pickaxe": "Forbidden Dirt Pickaxe",
   "item.spkcore.forbidden_dirt_sword": "Forbidden Dirt Sword",
-
   "item.spkcore.forbidden_dirt_helmet": "Forbidden Dirt Helmet",
   "item.spkcore.forbidden_dirt_chestplate": "Forbidden Dirt Chestplate",
   "item.spkcore.forbidden_dirt_leggings": "Forbidden Dirt Leggings",
   "item.spkcore.forbidden_dirt_boots": "Forbidden Dirt Boots",
-
   "block.spkcore.forbidden_dirt": "Forbidden Dirt",
   "block.spkcore.forbidden_dirt_block": "Forbidden Dirt Block",
 
   "block.spkcore.forgotten_black_log": "Forgotten Black log",
   "block.spkcore.forgotten_black_planks": "Forgotten Black Planks",
-  "block.spkcore.forgotten_black_crafting_table": "Forgotten Black Crafting Table",
   "block.spkcore.forgotten_black_fence": "Forgotten Black Fence",
   "block.spkcore.forgotten_black_fence_gate": "Forgotten Black Fence Gate",
   "block.spkcore.forgotten_black_button": "Forgotten Black Button",
@@ -28,21 +22,70 @@
   "block.spkcore.forgotten_black_slab": "Forgotten Black Slab",
 
   "item.spkcore.silver_ingot": "Iryte Ingot",
-
   "item.spkcore.silver_shovel": "Iryte Shovel",
   "item.spkcore.silver_axe": "Iryte Axe",
   "item.spkcore.silver_hoe": "Iryte Hoe",
   "item.spkcore.silver_pickaxe": "Iryte Pickaxe",
   "item.spkcore.silver_sword": "Iryte Sword",
-
   "item.spkcore.silver_helmet": "Iryte Helmet",
   "item.spkcore.silver_chestplate": "Iryte Chestplate",
   "item.spkcore.silver_leggings": "Iryte Leggings",
   "item.spkcore.silver_boots": "Iryte Boots",
-
   "block.spkcore.silver_ore": "Iryte ore",
   "block.spkcore.silver_block": "Iryte Block",
 
-  "itemGroup.spkTab": "Spaeker Core"
+  "item.spkcore.mjellia_ingot": "Mjellia Ingot",
+  "item.spkcore.mjellia_shovel": "Mjellia Shovel",
+  "item.spkcore.mjellia_axe": "Mjellia Axe",
+  "item.spkcore.mjellia_hoe": "Mjellia Hoe",
+  "item.spkcore.mjellia_pickaxe": "Mjellia Pickaxe",
+  "item.spkcore.mjellia_sword": "Mjellia Sword",
+  "item.spkcore.mjellia_helmet": "Mjellia Helmet",
+  "item.spkcore.mjellia_chestplate": "Mjellia Chestplate",
+  "item.spkcore.mjellia_leggings": "Mjellia Leggings",
+  "item.spkcore.mjellia_boots": "Mjellia Boots",
+  "block.spkcore.mjellia_ore": "Mjellia ore",
+  "block.spkcore.mjellia_block": "Mjellia Block",
 
+  "item.spkcore.cellsia_ingot": "Cellsia Ingot",
+  "item.spkcore.cellsia_shovel": "Cellsia Shovel",
+  "item.spkcore.cellsia_axe": "Cellsia Axe",
+  "item.spkcore.cellsia_hoe": "Cellsia Hoe",
+  "item.spkcore.cellsia_pickaxe": "Cellsia Pickaxe",
+  "item.spkcore.cellsia_sword": "Cellsia Sword",
+  "item.spkcore.cellsia_helmet": "Cellsia Helmet",
+  "item.spkcore.cellsia_chestplate": "Cellsia Chestplate",
+  "item.spkcore.cellsia_leggings": "Cellsia Leggings",
+  "item.spkcore.cellsia_boots": "Cellsia Boots",
+  "block.spkcore.cellsia_ore": "Cellsia ore",
+  "block.spkcore.cellsia_block": "Cellsia Block",
+
+  "item.spkcore.fevne_ingot": "Fevne Shard",
+  "item.spkcore.fevne_shovel": "Fevne Shovel",
+  "item.spkcore.fevne_axe": "Fevne Axe",
+  "item.spkcore.fevne_hoe": "Fevne Hoe",
+  "item.spkcore.fevne_pickaxe": "Fevne Pickaxe",
+  "item.spkcore.fevne_sword": "Fevne Sword",
+  "item.spkcore.fevne_helmet": "Fevne Helmet",
+  "item.spkcore.fevne_chestplate": "Fevne Chestplate",
+  "item.spkcore.fevne_leggings": "Fevne Leggings",
+  "item.spkcore.fevne_boots": "Fevne Boots",
+  "block.spkcore.fevne_ore": "Fevne ore",
+  "block.spkcore.fevne_block": "Fevne Block",
+
+  "item.spkcore.apothis_ingot": "Apothis Shard",
+  "item.spkcore.apothis_shovel": "Apothis Shovel",
+  "item.spkcore.apothis_axe": "Apothis Axe",
+  "item.spkcore.apothis_hoe": "Apothis Hoe",
+  "item.spkcore.apothis_pickaxe": "Apothis Pickaxe",
+  "item.spkcore.apothis_sword": "Apothis Sword",
+  "item.spkcore.apothis_helmet": "Apothis Helmet",
+  "item.spkcore.apothis_chestplate": "Apothis Chestplate",
+  "item.spkcore.apothis_leggings": "Apothis Leggings",
+  "item.spkcore.apothis_boots": "Apothis Boots",
+  "block.spkcore.apothis_ore": "Apothis ore",
+  "block.spkcore.apothis_block": "Apothis Block",
+
+  "itemGroup.spkTab": "Spaeker Core",
+  "item.spkcore.bad_apple": "Bad Apple"
 }

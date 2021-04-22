@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "spkcore:cellsia_ore"
+  },
+  "result": "spkcore:cellsia_ingot",
+  "experience": 0.19,
+  "cookingtime": 100
+}
