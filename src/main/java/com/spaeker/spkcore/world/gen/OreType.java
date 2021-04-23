@@ -1,6 +1,6 @@
 package com.spaeker.spkcore.world.gen;
 
-import com.spaeker.spkcore.block.BlockMod;
+import com.spaeker.spkcore.registry.block.BlockMod;
 import net.minecraft.block.Block;
 
 public enum OreType {

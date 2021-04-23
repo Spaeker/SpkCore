@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "spkcore:nytsi_ingot"
+    }
+  },
+  "result": {
+    "item": "spkcore:nytsi_leggings",
+    "count": 1
+  }
+}

@@ -1,14 +1,19 @@
 package com.spaeker;
 
-import com.spaeker.spkcore.block.BlockMod;
-import com.spaeker.spkcore.item.ItemMod;
+import com.spaeker.spkcore.registry.Armor.ArmorOne;
+import com.spaeker.spkcore.registry.Armor.ArmorTwo;
+import com.spaeker.spkcore.registry.Armor.ForbiddenDirtArmor;
+import com.spaeker.spkcore.registry.block.BlockMod;
+import com.spaeker.spkcore.registry.items.ItemMod;
+import com.spaeker.spkcore.registry.tools.ForbiddenDirtTools;
+import com.spaeker.spkcore.registry.tools.ToolOne;
+import com.spaeker.spkcore.registry.tools.ToolTwo;
 import com.spaeker.spkcore.util.*;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.eventbus.EventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
@@ -66,6 +71,14 @@ public class SpkCore
 
         ItemMod.register();
         BlockMod.register();
+        ArmorOne.register();
+        ArmorTwo.register();
+        ToolOne.register();
+        ToolTwo.register();
+        ForbiddenDirtTools.register();
+        ForbiddenDirtArmor.register();
+
+
        // ModTileEntities.register()
         MinecraftForge.EVENT_BUS.register(new ModEvents());
 

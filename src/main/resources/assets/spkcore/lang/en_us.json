@@ -86,6 +86,19 @@
   "block.spkcore.apothis_ore": "Apothis ore",
   "block.spkcore.apothis_block": "Apothis Block",
 
+  "item.spkcore.nytsi_ingot": "Nytsi Shard",
+  "item.spkcore.nytsi_shovel": "Nytsi Shovel",
+  "item.spkcore.nNytsi_axe": "Nytsi Axe",
+  "item.spkcore.nytsi_hoe": "Nytsi Hoe",
+  "item.spkcore.nytsi_pickaxe": "Nytsi Pickaxe",
+  "item.spkcore.nytsi_sword": "Nytsi Sword",
+  "item.spkcore.nytsi_helmet": "Nytsi Helmet",
+  "item.spkcore.nytsi_chestplate": "Nytsi Chestplate",
+  "item.spkcore.nytsi_leggings": "Nytsi Leggings",
+  "item.spkcore.nytsi_boots": "Nytsi Boots",
+  "block.spkcore.nytsi_ore": "Nytsi ore",
+  "block.spkcore.nytsi_block": "Nytsi Block",
+
   "itemGroup.spkTab": "Spaeker Core",
   "item.spkcore.bad_apple": "Bad Apple"
 }

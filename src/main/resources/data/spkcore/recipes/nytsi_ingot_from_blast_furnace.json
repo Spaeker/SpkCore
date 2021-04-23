@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "spkcore:nytsi_ore"
+  },
+  "result": "spkcore:nytsi_ingot",
+  "experience": 0.19,
+  "cookingtime": 100
+}

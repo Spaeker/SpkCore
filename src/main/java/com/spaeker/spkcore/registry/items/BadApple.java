@@ -1,4 +1,4 @@
-package com.spaeker.spkcore.item;
+package com.spaeker.spkcore.registry.items;
 
 import com.spaeker.SpkCore;
 import com.spaeker.spkcore.util.UtilKeyboard;

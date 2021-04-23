@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "spkcore:nytsi_ore"
+  },
+  "result": "spkcore:nytsi_ingot",
+  "experience": 1.15,
+  "cookingtime": 200
+}

@@ -1,0 +1,5 @@
+ {
+  "variants": {
+    "": { "model": "spkcore:block/nytsi_block"}
+  }
+}

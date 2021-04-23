@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " c "
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "spkcore:nytsi_ingot"
+    }
+  },
+  "result": {
+    "item": "spkcore:nytsi_sword",
+    "count": 1
+  }
+}

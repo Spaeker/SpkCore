@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients": [
+    { "item": "spkcore:nytsi_block" }
+  ],
+  "result": {
+    "item": "spkcore:nytsi_ingot",
+    "count": 9
+  }
+}
